@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Rubik+Glitch&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Rubik+Glitch&family=Yanone+Kaffeesatz&display=swap')
 
 body 
+    padding: 0px
+    margin: 0px
+
+.content-body
     margin: 0px
     padding: 0px
     background: #6FDB42
@@ -8,8 +12,13 @@ body
 
 .wrapper 
     max-width: 1400px
+    width: 100%
     margin: 0 auto
     background: #6FDB42
+    padding-top: 20px
+    h2 
+        color: #fff 
+        text-align: center
 
 .logo-block 
     padding: 50px
@@ -22,6 +31,42 @@ body
     width: 250px
     img 
         max-width: 100%
+
+.menu 
+    background-color: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 50px
+    padding: 20px
+    font-family: 'Manrope'
+    ul 
+        padding: 0px
+        margin: 0px
+        display: flex
+        flex-wrap: wrap
+        li 
+            list-style-type: none
+            font-size: 18px
+            padding: 10px
+            a 
+                text-decoration: none 
+                background-color: #6FDB42
+                color: #fff
+                display: flex
+                justify-content: center
+                align-items: center
+                padding: 5px 10px 5px 10px
+                border-radius: 5px
+
+@media(max-width: 720px) 
+    .menu
+        padding: 10px
+        margin: 20px 0px 20px 0px
+        ul
+            li
+                width: 100%
+                text-align: center
 
 
 .content 
