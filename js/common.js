@@ -10,5 +10,12 @@ $(document).ready(function(){
 	    return false; // выключаем стандартное действие
     });
 
+    // Overlay Scrollbar
+    
+    // $("body").overlayScrollbars({
+	// 	sizeAutoCapable: false,
+	// 	resize: "vertical"
+	// });
+
 
 });
